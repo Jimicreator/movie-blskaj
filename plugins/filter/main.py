@@ -291,8 +291,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                    InlineKeyboardButton('👨‍💻 Group', url=https://t.me/jimibots_grp'),
+                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/Jimi_Bots')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -300,8 +300,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                    InlineKeyboardButton('👨‍💻 Group', url=https://t.me/jimibots_grp'),
+                    InlineKeyboardButton('Channel 📢', url=f'https://t.me/Jimi_Bots')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -324,8 +324,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                        InlineKeyboardButton('👨‍💻 Group ', url=https://t.me/jimibots_grp'),
+                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/Jimi_Bots')
                     ]
                     ]
                 
@@ -356,8 +356,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                        InlineKeyboardButton('👨‍💻 Group', url=https://t.me/jimibots_grp),
+                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/Jimi_Bots')
                     ]
                     ]
                 
