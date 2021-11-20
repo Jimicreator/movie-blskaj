@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('search', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('channel', url='https://t.me/ZoSeriesStudio')
+                        InlineKeyboardButton('channel', url='https://t.me/Jimi_Bots')
                     ],
                     [
-                        InlineKeyboardButton('developer @zautekm', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('developer @Jimi_Bots')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("help", callback_data="help"),
                 InlineKeyboardButton("about", callback_data="about")
                 ],[
-                InlineKeyboardButton("more bots @josprojects 🤖", url="https://t.me/JosProjects")
+                InlineKeyboardButton("more bots Jimi Bots 🤖", url="https://t.me/Jimi_Bots")
                 ]]
             )
         )
@@ -353,8 +353,8 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('channel', url=f'https://t.me/JosProjects')
+            InlineKeyboardButton('Group', url=https//t.me/jimibots_grp),
+            InlineKeyboardButton('channel', url=f'https://t.me/Jimi_Bots')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
